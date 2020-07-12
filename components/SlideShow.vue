@@ -7,7 +7,7 @@
     </slide>
     <slide :key="1" class="item">
       <div>
-        2
+        <p>14px</p>
       </div>
     </slide>
     <slide :key="2" class="item">
@@ -35,12 +35,15 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .slideshow {
   width: 100%;
 }
 .item {
   width: 50%;
   background: aliceblue;
+  p {
+    font-size: 10px;
+  }
 }
 </style>
