@@ -1,16 +1,24 @@
 <template>
-  <carousel :per-page="2" :pagenation-enabled="false">
-    <slide :key="0">
-      <p>1</p>
+  <carousel :per-page="2" :pagenation-enabled="false" class="slideshow">
+    <slide :key="0" class="item">
+      <div>
+        100
+      </div>
     </slide>
-    <slide :key="1">
-      <p>2</p>
+    <slide :key="1" class="item">
+      <div>
+        2
+      </div>
     </slide>
-    <slide :key="2">
-      <p>3</p>
+    <slide :key="2" class="item">
+      <div>
+        3
+      </div>
     </slide>
-    <slide :key="3">
-      <p>4</p>
+    <slide :key="3" class="item">
+      <div>
+        4
+      </div>
     </slide>
   </carousel>
 </template>
@@ -26,3 +34,13 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.slideshow {
+  width: 100%;
+}
+.item {
+  width: 50%;
+  background: aliceblue;
+}
+</style>

@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <h1>後藤さま</h1>
     <slideShow />
   </div>
 </template>

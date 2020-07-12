@@ -1,6 +1,7 @@
 # スライドショー
 
 - vue carousel
+- vue-awesome-swiper
 - swiper
 - slick
 
