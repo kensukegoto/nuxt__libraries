@@ -46,6 +46,7 @@ https://www.npmjs.com/package/@nuxtjs/style-resources
 追加：Sassのmixinなどを外だしする
 
 追加：swiperでスライドショー実装
+修正：generateの際にswiperのCSSが読まれない問題
 
 
 ```

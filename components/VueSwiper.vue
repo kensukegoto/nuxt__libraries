@@ -55,6 +55,8 @@
 </template>
  
 <script>
+
+
   export default {
     name: 'carrousel',
     data() {
@@ -85,6 +87,8 @@
 
 
 <style lang="scss" scoped>
+
+@import 'swiper/swiper-bundle.css';
 
 .slideshow {
   width: 100%;
