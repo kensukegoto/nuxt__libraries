@@ -68,18 +68,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$breakpoints: (
-  's' : 'screen and (max-width: 374px)',
-  'm' : 'screen and (min-width: 560px)',
-  'l' : 'screen and (min-width: 960px)',
-) !default;
-
-@mixin media($breakpoint: l) {
-  @media #{map-get($breakpoints,$breakpoint)}{
-    @content;
-  }
-}
-
 .slideshow {
   width: 100%;
 }
@@ -87,7 +75,7 @@ $breakpoints: (
 
   position: relative;
   width: 50%;
-  
+
   &__meta {
     display: flex;
     align-items: center;
